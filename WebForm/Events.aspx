@@ -22,7 +22,7 @@
                 <ItemTemplate>
                     <h3>
                         <%# DataBinder.Eval(Container.DataItem, "EventDate") %> 
-                        <small><%# DataBinder.Eval(Container.DataItem, "EventName") %></small>
+                        <small class="ml-3"><%# DataBinder.Eval(Container.DataItem, "EventName") %></small>
                     </h3>
                 </ItemTemplate>
             </asp:Repeater>
